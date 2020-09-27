@@ -8,7 +8,7 @@
 
 <html>
 	<head>
-		<title>Rutvik Patel's Portfolio</title>
+		<title>Rudy Patel's Portfolio</title>
 		<link rel="shortcut icon" type="image/x-icon" href="thumbnail.png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -23,7 +23,7 @@
 				<!-- Main -->
 					<section class="banner style3 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
-							<h1>Rutvik Patel</h1>
+							<h1>Rudy Patel</h1>
 							<p class="major">Computer Engineering student at the <a href="https://calendar.ualberta.ca/preview_program.php?catoid=6&poid=3211" style="color: #75CB35">University of Alberta</a> </p>
 								<!--
 							<ul class="actions stacked">
@@ -41,7 +41,7 @@
 				<section class="spotlight style1 orient-right content-align-left image-position-right onscroll-image-fade-in" id="first">
 					<div class="content">
 						<h2>Periodic Table Database</h2>
-						<p>A database for elements in the periodic table where the user can browse through all the elements, with different UI layouts available to use. This project also has predictive search, using the <a href = "https://en.wikipedia.org/wiki/Trie" style = "color: #FFA500"> Trie</a> data structure. The user is able to search for a desired element, and if partially correct, the program will print out suggestions that the user can then select from.</p>
+						<p>A database for elements in the periodic table where the user can browse through all the elements, with different UI layouts available to use. This project also supports predictive search and autocomplete, built from scratch using the <a href = "https://en.wikipedia.org/wiki/Trie" style = "color: #FFA500"> Trie</a> data structure. The user is able to search for a desired element, and relevant chemical properties (such as atomic mass, melting/boiling point) are then displayed on an Arduino.</p>
 						<ul class="actions stacked">
 							<li><a href="https://github.com/patel-rutvik/periodic-table-database" class="button">See the code</a></li>
 						</ul>
@@ -53,7 +53,7 @@
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Driving Route Finder</h2>
-							<p>A route finder where the user can indicate a start and end point anywhere in the city of Edmonton. It calculates the shortest route possible using the <a href = "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" style = "color: #FF00FF"> Dijkstra algorithm</a> and displays it on the Arduino.</p>
+							<p>A route finder where the user can indicate a start and end point anywhere in my home city of Edmonton. Originally built to learn more about graph theory and traversals, a weighted graph is built using the GPS coordinates of street intersections. It then calculates the shortest route possible using the <a href = "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" style = "color: #FF00FF"> Dijkstra algorithm</a> and displays it on an Arduino!</p>
 							<ul class="actions stacked">
 								<li><a href="https://github.com/patel-rutvik/Driving-Route-Finder" class="button">See the code</a></li>
 							</ul>
@@ -65,7 +65,7 @@
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Unix Shell</h2>
-							<p>A unix shell to provide a user interface to acccess the operating system services. This was made to learn about systems programming, multiple processes, resource management and inter-process communication.</p>
+							<p>A unix shell to provide a user interface to acccess the operating system services. This project was built to learn and implement principles from systems programming, multi-processes programs, resource management and inter-process communication.</p>
 							<ul class="actions stacked">
 								<li><a href="https://github.com/patel-rutvik/unixShell" class="button">See the code</a></li>
 							</ul>
@@ -78,7 +78,7 @@
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Live Weather Web App</h2>
-							<p>A web app which supports searching (with autocomplete) for a specific location, and displays the live weather using data from <a href = "https://openweathermap.org/api" style = "color: rgb(255, 0, 123)">OpenWeather API</a>. </p>
+							<p>A web app which allows the user to search for a specific location, and displays the live weather using data gathered from <a href = "https://openweathermap.org/api" style = "color: rgb(255, 0, 123)">OpenWeather API</a>. </p>
 							<ul class="actions stacked">
 								<li><a href="https://github.com/patel-rutvik/weatherApp" class="button">See the code</a></li>
 							</ul>
@@ -90,18 +90,32 @@
 
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>Command-O-Line</h2>
-							<p>Download and play this arcade-like side scroller game! Incorporating features such as: object-oriented programming, sprite collision detection, level design, basic enemy AI system, and allowing variable gameplay with each play through. Developed with scalability in mind, manipulating things such as number of enemies, health, and power-up values are a breeze to modify!</p>
+							<h2>Image Compressor using Huffman Trees</h2>
+							<p>This program demonstrates the implementation of the "greedy" <a href = "https://en.wikipedia.org/wiki/Huffman_coding" style = "color: #0000FF"> huffman algorithm</a>. To achieve this, we compress each bit using the huffman tree, and also compress the huffman tree itself using the <a href = "https://docs.python.org/3.1/library/pickle.html" style = "color: #75CB35"> pickle module</a>. It is then decompressed by walking up the tree and displayed on the user's computer.</p>
 							<ul class="actions stacked">
-								<li><a href="https://github.com/patel-rutvik/command-o-line" class="button">See the code</a></li>
+								<li><a href="https://github.com/patel-rutvik/huffman-compression" class="button">See the code</a></li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/command-o-line_crop4.png" alt="" />
+							<img src="images/huffman_tree.png" alt="" />
 						</div>
 					</section>
 
+
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Ecrypted Arduino Communication</h2>
+							<p>This program allows for the generation and exchange of private and public keys, establishing a secure connection between the two devices. Each character is then encrypted using a sequence of randomly generated keys, allowing for each character to encrypted using a different key than the last. These bits are then transmitted to the other device, where it is then decrypted using the same process.</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/patel-rutvik/encrypted-arduino-com" class="button">See the code</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/Arduinos.jpg" alt="" />
+						</div>
+					</section>
+
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Facial Recognition on Images</h2>
 							<p>A simple facial recognition program which is able to identify/classify all faces in a single image. It identifies where a "face" is present in the image, and also who the person is based on a user classified images set.</p>
@@ -114,37 +128,11 @@
 						</div>
 					</section>
 
-				<!-- Spotlight 2 -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Ecrypted Arduino Communication</h2>
-							<p>This program (once downloaded onto both Arduinos) allows for the generation and exchange of private and public keys, establishing a secure connection between the two devices. Each character is then encrypted using a sequence of randomly generated keys, allowing for each character to encrypted using a different key than the last. These bits are then transmitted to the other device, where it is then decrypted using the same process.</p>
-							<ul class="actions stacked">
-								<li><a href="https://github.com/patel-rutvik/encrypted-arduino-com" class="button">See the code</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/Arduinos.jpg" alt="" />
-						</div>
-					</section>
-
-				<!-- Spotlight 3 -->
+					
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>Image Compressor using Huffman Trees</h2>
-							<p>This program demonstrates the implementation of the "greedy" <a href = "https://en.wikipedia.org/wiki/Huffman_coding" style = "color: #0000FF"> huffman algorithm</a>. To achieve this, we compress each bit using the huffman tree, and also compress the huffman tree itself using the <a href = "https://docs.python.org/3.1/library/pickle.html" style = "color: #75CB35"> pickle module</a>. It is then decompressed by walking up the tree and displayed on a local host on the user's computer.</p>
-							<ul class="actions stacked">
-								<li><a href="https://github.com/patel-rutvik/huffman-compression" class="button">See the code</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/huffman_tree.png" alt="" />
-						</div>
-					</section>
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
 							<h2>To-Do List</h2>
-							<p>A simple iOS app created using Swift & XCode. Allows for the user to maintain and modify a minimal to-do list. The user can add and delete tasks, as well as indicate if a task is important.</p>
+							<p>A simple iOS app created using Swift & XCode which allows the user to maintain and modify a minimal to-do list. The user can add and delete tasks, as well as indicate if a task is important.</p>
 							<ul class="actions stacked">
 								<li><a href="https://github.com/patel-rutvik/to-do-list" class="button">See the code</a></li>
 							</ul>
@@ -420,7 +408,7 @@
 								<li><a href="https://github.com/patel-rutvik" class="icon style2 fa-github"><span class="label">Github</span></a></li>
 								<li><a href="mailto:rutvik@ualberta.ca" class="icon style2 fa-envelope"><span class="label">Mail</span></a></li>
 							</ul>
-							<p>&copy; Rutvik Patel</p>
+							<p>&copy; Rudy Patel</p>
 						</div>
 					</footer>
 
