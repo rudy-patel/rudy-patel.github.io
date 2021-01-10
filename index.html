@@ -1,427 +1,68 @@
-<!DOCTYPE HTML>
-<!--
-	Story by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	Documentation URl: https://html5up.net/story
--->
-
+<!doctype html>
 <html>
-	<head>
-		<title>Rudy Patel's Portfolio</title>
-		<link rel="shortcut icon" type="image/x-icon" href="thumbnail.png" />
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Rudy Patel - Software Engineer</title>
+      <link rel="shortcut icon" type="image/x-icon" href="img/thumbnail.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="css/scribbler-global.css">
+      <link rel="stylesheet" href="css/scribbler-landing.css">
+      <link rel="author" href="humans.txt">
+  </head>
+  <body>
+    <nav class="header">
+      <div></div>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="timeline.html" class="link link--dark"> Timeline</a></li>
+        <li class="menu__item"><a href="resume/resume.pdf" class="link link--dark">Resume</a></li>
+        <li class="menu__item"><a href="https://www.linkedin.com/in/rutvikmpatel/" class="link link--dark"><i class="fa fa-linkedin-square"></i></a></li>
+        <li class="menu__item"><a href="https://github.com/patel-rutvik" class="link link--dark"><i class="fa fa-github"></i></a></li>
+      </ul>
+    </nav>
+    
+    <h1 style="text-align: center;">Hi, I'm Rudy 👋🏽</h1>
+    <div style="align-items: center;"><img src="img/CoachingHeadshot.jpg" width="30%"/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <p style="text-align: left; align-content: center; margin-right:15%;">I'm a Software Engineer, currently working on a wealth management platfrom at <b><a href="https://www.shareworks.com" style="text-decoration: underline;">Shareworks by Morgan Stanley</a></b>.</p>
+    </div>
+    <div class="clear"></div>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+    <div class="wrapper">
+      <h3 class="section__title">🏗 Things I've built</h3>
+          <p>Aside from my professional work, here are some side projects that I've built in my spare time.</p>
+      <h4 class="section__title">🚗 <a href="https://github.com/patel-rutvik/Driving-Route-Finder" style="text-decoration: underline;">Driving Route Finder</a></h4>
+          <p>Similar to Google Maps, this program calculates the optimal driving route between any two points in my home city, and implements touch screen support.</p>
+      <h4 class="section__title">🌤  <a href="https://github.com/patel-rutvik/weatherApp" style="text-decoration: underline;">Live Weather</a></h4>
+        <p>A web application that allows users to search for a city to query for update-to-date weather forecasts and information, built within 8 hours during a hackathon.</p>
+      <h4 class="section__title">💻 <a href="https://github.com/patel-rutvik/unixShell" style="text-decoration: underline;">Unix Shell</a></h4>
+        <p>Similar to any console found using Linux or macOS, this shell supports various custom built-in commands, along with any regular Unix shell command to interact with the operating system.</p>
+      <h4 class="section__title">🧪 <a href="https://github.com/patel-rutvik/periodic-table-database" style="text-decoration: underline;">Periodic Table Database</a></h4>
+        <p>An intuitive way to browse, search, & visualize the numerous elements on the periodic table. Built on an Arduino, it includes touch screen support, predictive search, & configurable UI layouts.</p>
+      
+      <h3 class="section__title">🏀 Coaching</h3>
+        <p>When I'm not building something cool in front of a computer, I'm usually on the basketball court working with a solid group of kids.</p>
 
-				<!-- Main -->
-					<section class="banner style3 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
-						<div class="content">
-							<h1>Rudy Patel</h1>
-							<p class="major">Computer Engineering student at the <a href="https://calendar.ualberta.ca/preview_program.php?catoid=6&poid=3211" style="color: #75CB35">University of Alberta</a> </p>
-								<!--
-							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Take a look at my work!</a></li>
-							</ul>
-							-->
-						</div>
-						<div class="image">
-							<img src="images/profilepic.JPG" alt="" />
-						</div>
-					</section>
-					
-					<!--<h2 style="text-align:center;"> Projects </h2> -->
-				<!-- Spotlight 1 -->
-				<section class="spotlight style1 orient-right content-align-left image-position-right onscroll-image-fade-in" id="first">
-					<div class="content">
-						<h2>Periodic Table Database</h2>
-						<p>A database for elements in the periodic table where the user can browse through all the elements, with different UI layouts available to use. This project also supports predictive search and autocomplete, built from scratch using the <a href = "https://en.wikipedia.org/wiki/Trie" style = "color: #FFA500"> Trie</a> data structure. The user is able to search for a desired element, and relevant chemical properties (such as atomic mass, melting/boiling point) are then displayed on an Arduino.</p>
-						<ul class="actions stacked">
-							<li><a href="https://github.com/patel-rutvik/periodic-table-database" class="button">See the code</a></li>
-						</ul>
-					</div>
-					<div class="image">
-						<img src="images/periodic-table.jpg" alt="" />
-					</div>
-				</section>
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Driving Route Finder</h2>
-							<p>A route finder where the user can indicate a start and end point anywhere in my home city of Edmonton. Originally built to learn more about graph theory and traversals, a weighted graph is built using the GPS coordinates of street intersections. It then calculates the shortest route possible using the <a href = "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" style = "color: #FF00FF"> Dijkstra algorithm</a> and displays it on an Arduino!</p>
-							<ul class="actions stacked">
-								<li><a href="https://github.com/patel-rutvik/Driving-Route-Finder" class="button">See the code</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/edmonton-map.jpg" alt="" />
-						</div>
-					</section>
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Unix Shell</h2>
-							<p>A unix shell to provide a user interface to acccess the operating system services. This project was built to learn and implement principles from systems programming, multi-processes programs, resource management and inter-process communication.</p>
-							<ul class="actions stacked">
-								<li><a href="https://github.com/patel-rutvik/unixShell" class="button">See the code</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/terminal.png" alt="" />
-						</div>
-					</section>
+        <h3 class="section__title">👨🏽‍💻 Hiring</h3>
+        <p class="description">I’m actively looking for new opportunities for <b>Winter 2022</b>. If you’re interested and trying to get a hold of me, here’s my ideal workplace:</p>
+      
+      <div class="hero__terminal" style="align-content: center;">
+        <pre>
+          <code class="shell-session demo">rudyPatel ~ $ </code>
+        </pre>
+      </div>
+      <p>Feel free to check out my <a href="resume\resume.pdf" style="text-decoration: underline;">resume</a>, <a href="https://www.linkedin.com/in/rutvikmpatel/" style="text-decoration: underline;">LinkedIn</a>, and <a href="https://github.com/patel-rutvik" style="text-decoration: underline;">Github</a>. </p>
 
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Live Weather Web App</h2>
-							<p>A web app which allows the user to search for a specific location, and displays the live weather using data gathered from <a href = "https://openweathermap.org/api" style = "color: rgb(255, 0, 123)">OpenWeather API</a>. </p>
-							<ul class="actions stacked">
-								<li><a href="https://github.com/patel-rutvik/weatherApp" class="button">See the code</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/weather.png" alt="" />
-						</div>
-					</section>
-
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Image Compressor using Huffman Trees</h2>
-							<p>This program demonstrates the implementation of the "greedy" <a href = "https://en.wikipedia.org/wiki/Huffman_coding" style = "color: #0000FF"> huffman algorithm</a>. To achieve this, we compress each bit using the huffman tree, and also compress the huffman tree itself using the <a href = "https://docs.python.org/3.1/library/pickle.html" style = "color: #75CB35"> pickle module</a>. It is then decompressed by walking up the tree and displayed on the user's computer.</p>
-							<ul class="actions stacked">
-								<li><a href="https://github.com/patel-rutvik/huffman-compression" class="button">See the code</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/huffman_tree.png" alt="" />
-						</div>
-					</section>
-
-
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Ecrypted Arduino Communication</h2>
-							<p>This program allows for the generation and exchange of private and public keys, establishing a secure connection between the two devices. Each character is then encrypted using a sequence of randomly generated keys, allowing for each character to encrypted using a different key than the last. These bits are then transmitted to the other device, where it is then decrypted using the same process.</p>
-							<ul class="actions stacked">
-								<li><a href="https://github.com/patel-rutvik/encrypted-arduino-com" class="button">See the code</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/Arduinos.jpg" alt="" />
-						</div>
-					</section>
-
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Facial Recognition on Images</h2>
-							<p>A simple facial recognition program which is able to identify/classify all faces in a single image. It identifies where a "face" is present in the image, and also who the person is based on a user classified images set.</p>
-							<ul class="actions stacked">
-								<li><a href="https://github.com/patel-rutvik/facial-recognition" class="button">See the code</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/elon.png" alt="" />
-						</div>
-					</section>
-
-					
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>To-Do List</h2>
-							<p>A simple iOS app created using Swift & XCode which allows the user to maintain and modify a minimal to-do list. The user can add and delete tasks, as well as indicate if a task is important.</p>
-							<ul class="actions stacked">
-								<li><a href="https://github.com/patel-rutvik/to-do-list" class="button">See the code</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/todolist.jpg" alt="" />
-						</div>
-					</section>
-
-				<!-- Additional Info 
-					<section class="wrapper style1 invert align-center">
-						<div class="inner">
-							<h2>Additional info</h2>
-							<p>Maybe some bullet points?... How do you do that?</p>
-						</div>
-					-->
-
-					</section>
-
-				<!-- Classes Taken -->
-					<section class="wrapper style1 small align-center onscroll-fade-in">
-						<div class="inner">
-							<h2>Relevant Coursework</h2>
-							<div class="items style1 medium onscroll-fade-in">
-								<section>
-										<span class="icon style2 major fa-hashtag"></span>
-										<h3>CMPUT 379</h3>
-										<p>Operating Systems</p>
-										<p>Processes: process state transitions; operations on processes; interrupt processing; parallel processing; multiprocessor considerations; resource allocation; critical sections and events; semaphores; deadlock: avoidance, detection, and recovery; memory management; virtual memory; paging and segmentation; page replacement strategies; working sets; demand paging; scheduling: levels, objectives, and criteria; scheduling algorithms; file system functions; file organization; space allocation; elements of operating systems security.</p>
-								</section>
-								<section>
-										<span class="icon style2 major fa-bolt"></span>
-										<h3>ECE 315</h3>
-										<p>Embedded Systems</p>
-										<p>Design and use of digital interfaces, including memory, serial, parallel, synchronous and asynchronous interfaces. Hardware implementations of interrupts, buses, input/output devices and direct memory access. Multitasking software architecture, real-time preemptive multitasking kernel. Data structures and mechanisms for flow control. Computer communications interfaces, interfacing of microcontroller to peripheral devices such as stepper motors.</p>
-								</section>
-								<section>
-										<span class="icon style2 major fa-hashtag"></span>
-										<h3>CMPUT 291</h3>
-										<p>File and Database Management</p>
-										<p>Basic concepts in computer data organization and information processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data.</p>
-									</section>
-								<section>
-									<span class="icon style2 major fa-hashtag"></span>
-									<h3>ECE 325</h3>
-									<p>Object-Oriented Software Design</p>
-									<p>Software engineering principles of object-oriented design: basic data structures, classes and objects, creation tactics, inheritance, composition, polymorphism, interfaces, compilation and execution. Programming Objectives. Introduction to advanced data structures, inner classes, and reflection. Exception handling and unit testing.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-desktop"></span>
-									<h3>ECE 311</h3>
-									<p>Computer Oranization and Architecture</p>
-									<p>Survey of modern computer architecture and design concepts. Benchmarks, instruction set design and encoding. Pipelined and superscalar processors. Techniques for exposing and exploiting instruction-level parallelism. Performance of cache and virtual memory hierarchies. Input/output subsystem design.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-hashtag"></span>
-									<h3>CMPUT 274/275</h3>
-									<p>Tangible Computing</p>
-									<p>Key concepts of procedural programming, algorithm design and analysis (lists, queues, trees, sorting, searching), all learned by solving a series of problems using the Arduino platform, C/C++, and Python. Also teaches object-oriented programming, dynamic programming, recursion, and client-server style computing. The use of a resource-limited processor with no operating system opens up the inner workings of computing. Development is done using the Linux operating system with the exposed compiler tool chain.</p>
-								</section>
-								<section>
-										<span class="icon style2 major fa-desktop"></span>
-										<h3>ECE 340</h3>
-										<p>Discrete Time Signals and Systems</p>
-										<p>Discrete time signals and systems; Sampled signals and sampling theorem, aliasing, A/D converter; Z-transform, stability analysis; Discrete-time Fourier transform; Discrete Fourier transform, leakage, spectral analysis; Digital filter design, filter structure.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-desktop"></span>
-									<h3>ECE 360</h3>
-									<p>Control Systems</p>
-									<p>Laplace transforms. Transfer function models of physical systems. First and second order systems. Stability and properties of feedback. PID controllers. Frequency domain analysis and design. Digital control. Case studies.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-bolt"></span>
-									<h3>ECE 302</h3>
-									<p>Electronic Devices</p>
-									<p>PN junction semiconductor basics, charge flow and diode equation. Zener diodes. BJT and MOSFET devices and operating regions. Amplifier basics: biasing, gain, input and output resistance, analysis and design. Large signal effects.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-desktop"></span>
-									<h3>CMPUT 272</h3>
-									<p>Formal Systems and Logic</p>
-									<p>An introduction to the tools of set theory, logic, and induction, and their use in the practice of reasoning about algorithms and programs. Basic set theory. The notion of a function. Counting. Propositional and predicate logic and their proof systems. Inductive definitions and proofs by induction. Program specification and correctness.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-bar-chart"></span>
-									<h3>MATH 100, 101, 209</h3>
-									<p>Calc l, ll, lll</p>
-									<p>Applications of integration to planar areas and lengths, volumes and masses. Partial differentiation, derivatives of integrals. Multiple integration using rectangular, cylindrical, and spherical coordinates. Vector Field Theory.</p>
-									<h3>MATH 201</h3>
-									<p>Differential Equations</p>
-									<p>First-order equations; second-order linear equations: reduction of order, variation of parameters; Laplace transform; linear systems; power series; solution by series; separation of variables for PDEs.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-bolt"></span>
-									<h3>ECE 202/203</h3>
-									<p>Circuits l and ll</p>
-									<p>Circuit laws: Ohm’s, KVL, KCL. Resistive voltage and current dividers. Basic loop and nodal analysis. Dependent sources. Circuit theorems: linearity, superposition, maximum power transfer, Thevenin, Norton. Time domain behavior of inductance and capacitance, energy storage. Sinusoidal signals, complex numbers, phasor and impedance concepts. Magnetically coupled networks. Single phase power and power factor. Diodes: ideal and simple and models, single phase rectifiers. Ideal and finite gain op-amps. Treatment of RLC circuits in the time domain, frequency domain and s-plane. Two port networks.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-desktop"></span>
-									<h3>ENCMP 100</h3>
-									<p>Computer Programming for Engineers</p>
-									<p>Fundamentals of MATLAB computer programming with emphasis on solving engineering problems. Structure and syntax of computer programs, variables, data types, data structures, control structures, functions, input/output operations, debugging, software development process.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-bolt"></span>
-									<h3>ECE 210</h3>
-									<p>Digital Logic Design</p>
-									<p>Boolean algebra, truth tables, Karnaugh maps. Switching devices and their symbology with an introduction to NAND and NOR logic. Number systems, codes, minimization procedures, synthesis of combinational networks. Synchronous sequential circuits, flip-flops, counters. Arithmetic circuits. Introduction to computer-aided design and simulation tools for digital design and implementation.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-desktop"></span>
-									<h3>ECE 212</h3>
-									<p>Introduction to Microprocessors</p>
-									<p>Microcomputer architecture, assembly language programming, sub-routine handling, memory and input/output system and interrupt concepts.</p>
-									<h3>ECE 240</h3>
-									<p>Continuous Time Signals and Systems</p>
-									<p>Introduction to linear systems and signal classification. Delta function and convolution. Fourier series expansion. Fourier transform and its properties. Laplace transform. Analysis of linear time invariant (LTI) systems using the Laplace transform.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-bar-chart"></span>
-									<h3>PHYS 230</h3>
-									<p>Electricity and Magnetism</p>
-									<p>Electric fields, Gauss’ Law; electric potential; capacitance and dielectrics; electric current and resistance; magnetic fields, Ampere’s Law; Faraday’s Law; inductance; magnetic properties of matter.</p>
-									<h3>MATH 102</h3>
-									<p>Applied Linear Algebra</p>
-									<p>Vectors and matrices, solution of linear equations, equations of lines and planes, determinants, matrix algebra, orthogonality and applications (Gram-Schmidt), eigenvalues and eigenvectors and applications, complex numbers.</p>
-								</section>
-								
-								<section>
-									<span class="icon style2 major fa-leaf"></span>
-									<h3>ENGG 130</h3>
-									<p>Engineering Mechanics (Statics)</p>
-									<p>Equilibrium of planar systems. Analysis of statically determinate trusses and frames. Friction. Centroids and centres of gravity. Forces and moments in beams. Second moments of area.</p>
-									<h3>EN PH 131</h3>
-									<p>Mechanics (Dynamics)</p>
-									<p>Kinematics and dynamics of particles; gravitation; work and energy; linear momentum; angular momentum; systems of particles; introduction to dynamics of rigid bodies.</p>
-								</section>
-								<!-- 
-								<section>
-									<span class="icon style2 major fa-bolt"></span>
-									<h3>Turpis</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-envelope"></span>
-									<h3>Ultrices</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-leaf"></span>
-									<h3>Risus</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								-->
-								
-							</div>
-						</div>
-					</section>
-
-					<!-- Wheel 
-					<section>
-					<h2 style="text-align:center;"></h2style>Athletics</h2>
-					<p style="text-align:center;">Basketball is something I have always been passionate about. Coaching allows me to still express my love for the game, while making a difference in kids lives. </p>
-					</section>
-					<div class="gallery style2 medium lightbox onscroll-fade-in">
-						<article>
-							<a href="images/profilepic.jpg" class="image">
-								<img src="images/profilepic.jpg" alt="" />
-							</a>
-							<div class="caption">
-								<h3></h3>
-								<p>Coaching my U15 boys</p>
-								<ul class="actions fixed">
-									<li><span class="button small">Enlarge</span></li>
-								</ul>
-							</div>
-						</article>
-						<article>
-							<a href="images/coaching1.jpg" class="image">
-								<img src="images/coaching1.jpg" alt="" />
-							</a>
-							<div class="caption">
-								<h3></h3>
-								<p>Drawing up a play</p>
-								<ul class="actions fixed">
-									<li><span class="button small">Enlarge</span></li>
-								</ul>
-							</div>
-						</article>
-						<article>
-							<a href="images/coaching2.png" class="image">
-								<img src="images/coaching2.png" alt="" />
-							</a>
-							<div class="caption">
-								<h3></h3>
-								<p>Team picture after a tournament win</p>
-								<ul class="actions fixed">
-									<li><span class="button small">Enlarge</span></li>
-								</ul>
-							</div>
-						</article>
-						<article>
-							<a href="images/coaching3.jpg" class="image">
-								<img src="images/coaching3.jpg" alt="" />
-							</a>
-							<div class="caption">
-								<h3></h3>
-								<p>Team picture from my high school days</p>
-								<ul class="actions fixed">
-									<li><span class="button small">Enlarge</span></li>
-								</ul>
-							</div>
-						</article>
-						<article>
-							<a href="images/action1.jpg" class="image">
-								<img src="images/action1.jpg" alt="" />
-							</a>
-							<div class="caption">
-								<h3></h3>
-								<p>Dunking</p>
-								<ul class="actions fixed">
-									<li><span class="button small">Enlarge</span></li>
-								</ul>
-							</div>
-						</article>
-						
-					</div>
-				-->
-					<!--<script type="text/javascript" src="https://form.jotform.com/jsform/91326534527256"></script>-->
-				<!-- Form 
-					<section class="wrapper style1 invert align-center">
-						<div class="inner medium">
-							<h2>Get in touch!</h2>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field half">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-								</div>
-								<ul class="actions special">
-									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-
-						</div>
-					</section>
-				-->
-				<!--
-				<section class="wrapper style1 invert align-center">
-					<div class="inner">
-						<h2>Contact Me</h2>
-						<p>Email: rutvik@ualberta.ca</p>
-						<p>Phone: 780-885-3695</p>
-					</div>
-				</section>
-			-->
-				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://www.linkedin.com/in/rutvikmpatel/" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/patel-rutvik" class="icon style2 fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:rutvik@ualberta.ca" class="icon style2 fa-envelope"><span class="label">Mail</span></a></li>
-							</ul>
-							<p>&copy; Rudy Patel</p>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    </div>
+    <footer class="footer">© 2021, Rudy Patel</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="js/scribbler.js"></script>
+  </body>
 </html>
