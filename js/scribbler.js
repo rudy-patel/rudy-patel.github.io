@@ -12,14 +12,14 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `me.getIdealWorkplace()
+  var txt = `rudy.getIdealWorkplace()
 
             - I enjoy working on an impactful product
             - I like taking ownership & responsibility of my work 
             - I love having opportunities to learn new things
             - I prefer working in a modern technology stack
             - I appreciate having the flexibility to work remotely`;
-  var speed = 35;
+  var speed = 20;
 
   function typeItOut () {
     if (i < txt.length) {
