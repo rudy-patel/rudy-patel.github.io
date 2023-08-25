@@ -382,6 +382,21 @@ table td:first-child {
   color: black;
 }
 
+.widget-image-container {
+  display: flex;
+  align-items: flex-start; /* Vertically align items to the top */
+  flex-direction: column; /* Stack items vertically */
+  margin-top: 1px; /* Reduced top margin */
+  margin-left: 1px; /* Reduced top margin */
+}
+
+.widget-image-container img {
+  max-height: 140px;
+  margin-top: 1px; /* Keep the margin for spacing between text and image */
+  margin-left: 1px; /* Add a margin to the left to create space between text and image */
+}
+
+
 @keyframes fadeUp {
   0% {
     opacity: 0;
